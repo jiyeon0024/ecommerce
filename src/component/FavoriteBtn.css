@@ -1,0 +1,21 @@
+.favoriteBtn {
+  background: none;
+  border: 1.5px solid var(--mediumGray);
+  border-radius: 50%;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.heart {
+  text-align: center;
+  color: var(--mediumGray);
+}
+
+.red .heart {
+  color: red;
+}

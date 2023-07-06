@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navUl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--darkGreen);
+}
+
+.navEl {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--darkgray);
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.cartIcon:hover {
+  color: var(--darkGreen);
+}

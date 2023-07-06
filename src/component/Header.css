@@ -1,0 +1,26 @@
+.header {
+  padding: 10px;
+}
+
+.bannerTitle {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--linen);
+  max-width: 20ch;
+  line-height: 1;
+  padding: 10px;
+}
+
+.banner {
+  background-color: var(--darkGreen);
+  background-image: url(https://source.unsplash.com/EG49vTtKdvI);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  height: 30vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}

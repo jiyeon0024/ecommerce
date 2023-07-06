@@ -1,0 +1,15 @@
+.filterBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 90px;
+  padding: 10px;
+  border: 1px solid var(--lightGreen);
+  border-radius: 10px;
+}
+
+.close {
+  color: var(--mediumGray);
+  font-weight: 700;
+  cursor: pointer;
+}

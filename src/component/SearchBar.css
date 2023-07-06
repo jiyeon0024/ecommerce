@@ -1,0 +1,15 @@
+.searchWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIcon {
+  color: var(--mediumGray);
+  margin-left: -35px;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  color: var(--orange);
+}

@@ -1,0 +1,52 @@
+.cardBox {
+  min-width: 250px;
+
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  /* box-shadow: inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5),
+    inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3); */
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  font-size: 15px;
+  /* border: 2px solid var(--lightGreen); */
+}
+
+.img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.firstRow,
+.brand,
+.secondRow {
+  padding: 8px;
+  color: var(--darkgray);
+  font-weight: 700;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favoriteBtn {
+  margin: 5px;
+}
+
+.brand {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.categoryBtn {
+  background: none;
+
+  width: 150px;
+  margin: auto;
+  border: 2px solid var(--mediumGray);
+  border-radius: 20px;
+  box-shadow: none;
+}
